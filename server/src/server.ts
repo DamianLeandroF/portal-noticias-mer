@@ -3,7 +3,7 @@ import type { Application } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
-import { connectDB } from '../config/db.js';
+import { connectDB } from './config/db.js';
 
 dotenv.config();
 const app: Application = express();
