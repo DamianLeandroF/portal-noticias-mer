@@ -1,0 +1,22 @@
+# Common
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+.DS_Store
+*.log
+
+# Roots
+/front/node_modules/
+/front/dist/
+/server/node_modules/
+/server/uploads/
+/server/dist/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
